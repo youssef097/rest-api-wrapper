@@ -72,7 +72,7 @@ FINANCERO_BASE_URL=https://financero.api.com/v1
 ODERINO_BASE_URL=https://oderino.mockapi.com/v1
 FINANCERO_MOCK_BASE_URL=https://financero.mockapi.com/v3-1
 CACHE_TTL=300
-
+```
 
 ```.env.mock``` (Mock Configuration)
 This configuration file is used for running the project with mock data. It provides mock base URLs for the FINANCERO and ODERINO services and also runs the Wrapper API.
@@ -99,9 +99,8 @@ locaria-challenge/
 │   ├── controllers/        # Customer API Controllers
 │   ├── services/           # Services to interact with FINANCERO and ODERINO
 │   ├── utils/              # Utility functions like caching
-│   ├── mock_api_server.ts  # Mock API server for testing
 │   ├── index.ts            # Main entry file for the application
-│
+├── mock_api_server.ts      # Mock API server for testing
 ├── .env                    # Environment variables for production
 ├── .env.mock               # Environment variables for mock data
 ├── Dockerfile              # Docker configuration for containerized deployment
