@@ -1,0 +1,1 @@
+Locaria Challenge - API Wrapper
